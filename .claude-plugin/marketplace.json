@@ -1,0 +1,8 @@
+{
+  "name": "hero-not-found",
+  "owner": {
+    "name": "Hero Not Found"
+  },
+  "description": "Plum conversation recall plugins for Codex and Claude Code.",
+  "plugins": []
+}
