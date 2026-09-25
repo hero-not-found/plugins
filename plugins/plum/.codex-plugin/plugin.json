@@ -1,0 +1,40 @@
+{
+  "version": "0.1.0-beta.1+git.ba1dd6015718af320000c0d4ea1017d9206d6c76",
+  "description": "Recall conversations, find people, and summarize what matters from your Plum account.",
+  "author": {
+    "name": "Hero Not Found",
+    "url": "https://github.com/hero-not-found"
+  },
+  "repository": "https://github.com/hero-not-found/plugins",
+  "keywords": [
+    "plum",
+    "conversations",
+    "transcripts",
+    "people",
+    "recall"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "developerName": "Hero Not Found",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "composerIcon": "./assets/mark-light.png",
+    "logo": "./assets/mark-light.png",
+    "logoDark": "./assets/mark-dark.png",
+    "brandColor": "#702080",
+    "displayName": "Plum",
+    "shortDescription": "Your conversations, connected.",
+    "longDescription": "Recall conversations, find people, and summarize what matters from your Plum account.",
+    "defaultPrompt": [
+      "Summarize my Plum conversations from today.",
+      "List my contacts in Plum.",
+      "Find decisions and follow-ups in my Plum conversations."
+    ],
+    "websiteURL": "https://mcp.plum.hnf.dev"
+  },
+  "name": "plum",
+  "homepage": "https://mcp.plum.hnf.dev"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "plum": {
+      "type": "http",
+      "url": "https://api.plum.hnf.dev/mcp"
+    }
+  }
+}
