@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-beta.1+git.c03356b250facd9549c8efaff5182d6eead14f4d",
+  "version": "0.1.0-beta.1+git.938aaf7696ef5f2aa8c0dcc859fb73adf9943abf",
   "description": "Recall conversations, find contacts, and summarize what matters from your Plum account.",
   "author": {
     "name": "Hero Not Found",
@@ -31,7 +31,22 @@
     "defaultPrompt": [
       "Summarize my Plum conversations from today.",
       "List my contacts in Plum.",
-      "Find decisions and follow-ups in my Plum conversations."
+      "Find decisions and follow-ups in my Plum conversations.",
+      "Who have I spoken with this week in Plum?",
+      "Use Plum to prepare me for my next conversation with Alex: summarize our discussions this week, agreements, and questions to revisit.",
+      "What did Alex and I discuss yesterday in Plum?",
+      "What did I promise to do today in Plum? Separate firm commitments from suggestions and requests.",
+      "Which questions were left unanswered in today's Plum conversations?",
+      "Use Plum to check whether I told Sam we'd ship Friday this week. Show the exact transcript words, speaker, and recording time.",
+      "Find mentions of pricing in Monday's Plum conversations.",
+      "When did we agree to push the launch in this month's Plum conversations?",
+      "How did our thinking on pricing change in Plum this month? Include later revisions to earlier decisions.",
+      "Summarize today's Plum recordings from my phone.",
+      "List my recording sources in Plum.",
+      "Show today's recording coverage and gaps for my office recorder in Plum.",
+      "Show today's Plum turns with unknown speakers for me to review.",
+      "Help me correct the speakers in today's Plum turns. Show each proposed change before applying it.",
+      "Find today's accidental lunch recording in Plum, show the exact turns, and ask before deleting them."
     ],
     "websiteURL": "https://mcp.plum.hnf.dev"
   },
