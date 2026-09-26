@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-beta.1+git.ba1dd6015718af320000c0d4ea1017d9206d6c76",
+  "version": "0.1.0-beta.1+git.c03356b250facd9549c8efaff5182d6eead14f4d",
   "author": {
     "name": "Hero Not Found",
     "url": "https://github.com/hero-not-found"
@@ -8,12 +8,12 @@
   "keywords": [
     "plum",
     "conversations",
-    "people",
-    "transcripts",
+    "contacts",
+    "turns",
     "recall"
   ],
   "name": "plum",
   "displayName": "Plum",
-  "description": "Recall conversations, find people, and summarize what matters from your Plum account.",
+  "description": "Recall conversations, find contacts, and summarize what matters from your Plum account.",
   "homepage": "https://mcp.plum.hnf.dev"
 }

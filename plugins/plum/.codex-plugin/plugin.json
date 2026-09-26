@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0-beta.1+git.ba1dd6015718af320000c0d4ea1017d9206d6c76",
-  "description": "Recall conversations, find people, and summarize what matters from your Plum account.",
+  "version": "0.1.0-beta.1+git.c03356b250facd9549c8efaff5182d6eead14f4d",
+  "description": "Recall conversations, find contacts, and summarize what matters from your Plum account.",
   "author": {
     "name": "Hero Not Found",
     "url": "https://github.com/hero-not-found"
@@ -9,8 +9,8 @@
   "keywords": [
     "plum",
     "conversations",
-    "transcripts",
-    "people",
+    "turns",
+    "contacts",
     "recall"
   ],
   "skills": "./skills/",
@@ -27,7 +27,7 @@
     "brandColor": "#702080",
     "displayName": "Plum",
     "shortDescription": "Your conversations, connected.",
-    "longDescription": "Recall conversations, find people, and summarize what matters from your Plum account.",
+    "longDescription": "Recall conversations, find contacts, and summarize what matters from your Plum account.",
     "defaultPrompt": [
       "Summarize my Plum conversations from today.",
       "List my contacts in Plum.",

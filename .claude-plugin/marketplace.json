@@ -8,7 +8,7 @@
     {
       "name": "plum",
       "source": "./claude-plugins/plum",
-      "description": "Recall conversations, find people, and summarize what matters from your Plum account."
+      "description": "Recall conversations, find contacts, and summarize what matters from your Plum account."
     }
   ]
 }
