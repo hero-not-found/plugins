@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-beta.1+git.99d56b5f04a7faf8a733356df8da8160508fd9e4",
+  "version": "0.1.0-beta.1+git.c07a4655ca2c9d5f38a1609b8b02653253f1784f",
   "description": "Recall conversations, find contacts, and summarize what matters from your Plum account.",
   "author": {
     "name": "Hero Not Found",
@@ -48,8 +48,8 @@
       "Help me correct the speakers in today's Plum turns. Show each proposed change before applying it.",
       "Find today's accidental lunch recording in Plum, show the exact turns, and ask before deleting them."
     ],
-    "websiteURL": "https://mcp.plum.hnf.dev"
+    "websiteURL": "https://auth.plum.hnf.dev"
   },
   "name": "plum",
-  "homepage": "https://mcp.plum.hnf.dev"
+  "homepage": "https://auth.plum.hnf.dev"
 }
