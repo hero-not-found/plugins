@@ -34,6 +34,7 @@ fall back to another environment after an error or an empty result.
    filters (`contact_ids` and `source_ids`). Resolve a named recording source
    with `list_sources` before using its ID. Start with a page of 25. For a topic
    search, inspect the returned text.
+   List items omit per-word timings; call `get_turn` when exact word timing matters.
 5. Follow non-null cursors with the same filters until the requested scope is
    covered. If you stop early, state the coverage limit instead of implying
    the results are exhaustive. If a list reports `RESULT_TOO_LARGE`, lower
