@@ -2,7 +2,11 @@
   "mcpServers": {
     "plum": {
       "type": "http",
-      "url": "https://api.plum.hnf.dev/mcp"
+      "url": "https://api.plum.hnf.dev/mcp",
+      "headers": {
+        "X-Plum-Client": "claude_plugin",
+        "X-Plum-Client-Version": "0.1.0+10658"
+      }
     }
   }
 }
