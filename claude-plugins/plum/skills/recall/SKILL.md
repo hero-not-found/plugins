@@ -170,7 +170,9 @@ cross pipeline boundaries, even when two feeds contain similar actions. Develope
 access is staff-managed, not something a plugin or user can grant themselves.
 
 With `suggestions:read`, use `list_suggestions` for the active feed or history and
-`get_suggestion` for an exact revision. Suggested means proposed, not assigned.
+`get_suggestion` for an exact revision. Lists return card summaries without evidence;
+call `get_suggestion` to obtain canonical Turn citations before assessing a suggestion's
+grounding. Suggested means proposed, not assigned.
 Keep action, why-now explanation, Turn evidence, roles, timing uncertainty, state,
 protected fields, grouping and review flags distinct. Speaker, mention, actor and
 recipient may be different people. Use `get_turn` with `turns:read` to inspect current canonical evidence before
