@@ -5,7 +5,7 @@
       "url": "https://api.plum.hnf.dev/mcp",
       "headers": {
         "X-Plum-Client": "claude_plugin",
-        "X-Plum-Client-Version": "0.1.0+10668"
+        "X-Plum-Client-Version": "0.1.0+10694"
       }
     }
   }
