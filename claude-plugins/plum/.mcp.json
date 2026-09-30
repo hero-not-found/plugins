@@ -5,7 +5,7 @@
       "url": "https://api.plum.hnf.dev/mcp",
       "headers": {
         "X-Optima-Client": "claude_plugin",
-        "X-Optima-Client-Version": "0.1.0+10741"
+        "X-Optima-Client-Version": "0.1.0+10742"
       }
     }
   }
