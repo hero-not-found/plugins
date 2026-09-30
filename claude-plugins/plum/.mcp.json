@@ -4,8 +4,8 @@
       "type": "http",
       "url": "https://api.plum.hnf.dev/mcp",
       "headers": {
-        "X-Plum-Client": "claude_plugin",
-        "X-Plum-Client-Version": "0.1.0+10694"
+        "X-Optima-Client": "claude_plugin",
+        "X-Optima-Client-Version": "0.1.0+10741"
       }
     }
   }
