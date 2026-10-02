@@ -211,6 +211,10 @@ irrelevant changes relevance; more-like-this is not factual confirmation. Comple
 marks already done; it never performs the action in another service. Use
 `edit_suggestion` for explicit wording, role or due-date corrections and
 `group_suggestions` for explicit grouping, duplicate merge/split or separation.
+Rewording or accepting a suggestion makes it the user's: Plum stops revising it and
+keeps it when its recordings are deleted. Before `delete_suggestion`, show the exact
+suggestion's action and state and wait for explicit approval; it also deletes
+duplicates merged into it.
 Supply exact members and observed revisions from one pipeline. Grouped items retain
 independent completion state. ID-based operations retain their object's pipeline
 when the default changes; an explicit mismatch must not be retried on another feed.

@@ -5,7 +5,7 @@
       "url": "https://api.getoptima.com/mcp",
       "headers": {
         "X-Optima-Client": "claude_plugin",
-        "X-Optima-Client-Version": "0.1.0+11119"
+        "X-Optima-Client-Version": "0.1.0+11121"
       }
     }
   }
