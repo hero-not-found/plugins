@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0+git.70e4d9e6f082c7a040d43df0da9de9ae42b9b62a",
+  "version": "0.1.0+git.5f5300d3d71692c511e7531d7def11dd302e3ba0",
   "author": {
     "name": "Hero Not Found",
     "url": "https://github.com/hero-not-found"
@@ -15,5 +15,5 @@
   "name": "plum",
   "displayName": "Plum",
   "description": "Recall conversations, find contacts, and summarize what matters from your Plum account.",
-  "homepage": "https://auth.plum.hnf.dev"
+  "homepage": "https://docs.getoptima.com/docs/mcp"
 }

@@ -2,10 +2,10 @@
   "mcpServers": {
     "plum": {
       "type": "http",
-      "url": "https://api.plum.hnf.dev/mcp",
+      "url": "https://api.getoptima.com/mcp",
       "http_headers": {
         "X-Optima-Client": "codex_plugin",
-        "X-Optima-Client-Version": "0.1.0+10744"
+        "X-Optima-Client-Version": "0.1.0+11106"
       }
     }
   }

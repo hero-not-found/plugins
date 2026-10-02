@@ -59,6 +59,27 @@ fall back to another environment after an error or an empty result.
 - An empty successful result means no matching records were returned. An
   authentication, permission, or service error does not mean an empty account.
 
+## Removed content
+
+Retention removes content after the workspace's retention period, and users can
+delete records. The record's IDs, times, and links stay; its text and audio do not.
+
+- A reference whose `source.state`, or a signal whose `payload_state`, is not
+  `available` points at removed content. Report it as "expired on <removed_at>" or
+  "deleted", and never quote, summarize, or infer anything from it.
+- A turn's `audio.state` covers only its recording. When it is not `available`, the
+  recording can no longer be played, but a listed turn's text is still valid; lists
+  leave out turns whose transcript is gone.
+- A stream whose `audio.state` is not `available` had its audio and title removed;
+  its turns stay readable.
+- Text, a title, or a quote that is null next to a removed state was removed, not
+  silence. Do not quote it, count it as silence, or treat it as something said.
+- A `CONTENT_EXPIRED` or `CONTENT_DELETED` tool error means that record is gone.
+  Say so, and do not retry it or report it as an outage or a permission problem.
+- A citation with a null quote and a non-available source is a retained citation
+  with no readable text. It shows that evidence existed, not what it said; do not
+  treat the claim it supports as verified.
+
 ## Questions and prompt suggestions
 
 Offer these workflows when the user asks what Plum can do. Adapt
@@ -156,8 +177,9 @@ assignment means who said a turn, not who was mentioned in it.
 
 ## Grounded recall and suggestions
 
-With `recall:read`, use `search` or `recall` to retrieve text with canonical Turn
-citations. Inspect the returned mode: `retrieval` with a null answer is a set of
+With `turns:read` and `insights:read`, use `search` or `recall` to retrieve text with
+canonical Turn citations; a connection approved with the earlier `recall:read` scope
+has them too. Inspect the returned mode: `retrieval` with a null answer is a set of
 excerpts, not a synthesized answer. The internal backend uses full-text matching;
 use concrete terms and do not claim semantic or exhaustive recall. Follow cursors
 and report truncation. An unavailable selected backend is an error, not an empty
@@ -169,7 +191,8 @@ Keep pipeline IDs with results and cache keys. Suggestions and their feedback ne
 cross pipeline boundaries, even when two feeds contain similar actions. Developer
 access is staff-managed, not something a plugin or user can grant themselves.
 
-With `suggestions:read`, use `list_suggestions` for the active feed or history and
+With `insights:read` (`suggestions:read` on a connection approved under that earlier
+name), use `list_suggestions` for the active feed or history and
 `get_suggestion` for an exact revision. Lists return card summaries without evidence;
 call `get_suggestion` to obtain canonical Turn citations before assessing a suggestion's
 grounding. Suggested means proposed, not assigned.

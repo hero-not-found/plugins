@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0+git.70e4d9e6f082c7a040d43df0da9de9ae42b9b62a",
+  "version": "0.1.0+git.5f5300d3d71692c511e7531d7def11dd302e3ba0",
   "description": "Recall conversations, find contacts, and summarize what matters from your Plum account.",
   "author": {
     "name": "Hero Not Found",
@@ -48,8 +48,8 @@
       "Help me correct the speakers in today's Plum turns. Show each proposed change before applying it.",
       "Find today's accidental lunch recording in Plum, show the exact turns, and ask before deleting them."
     ],
-    "websiteURL": "https://auth.plum.hnf.dev"
+    "websiteURL": "https://docs.getoptima.com/docs/mcp"
   },
   "name": "plum",
-  "homepage": "https://auth.plum.hnf.dev"
+  "homepage": "https://docs.getoptima.com/docs/mcp"
 }
